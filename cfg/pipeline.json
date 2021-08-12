@@ -1,0 +1,64 @@
+{
+  "name": "name",
+  "start_date": "2019-08-24",
+  "end_date": "2019-08-24",
+  "budget_per_km2": 0,
+  "max_cost": 0,
+  "cloud_cover_percentage": 100,
+  "min_aoi_coverage_percentage": 0,
+  "resolution_low": 30,
+  "resolution_high": 10,
+  "interval": "1d",
+  "result_delivery": {
+    "max_latency": "0d",
+    "priorities": [
+      "latest",
+      "highest_resolution",
+      "lowest_cost"
+    ]
+  },
+  "aoi": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -90,
+          0
+        ],
+        [
+          -180,
+          -90,
+          0
+        ],
+        [
+          -180,
+          -90,
+          0
+        ],
+        [
+          -180,
+          -90,
+          0
+        ]
+      ]
+    ]
+  },
+  "output": {
+    "id": "string",
+    "format": "geotiff",
+    "mosaic": "off"
+  },
+  "tags": [
+    {
+      "label": "string",
+      "value": "string"
+    }
+  ],
+  "status": "active",
+  "sources": {
+    "include": [
+	  "Kompsat-2", "Kompsat-3", "Kompsat-3A", "PlanetScope", "Sentinel-1", "Sentinel-2", "SkySat", "TripleSat", "Pleiades", "Spot"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "location": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "start_date": "2019-08-24",
+  "end_date": "2019-08-24",
+  "resolution": [
+    "low"
+  ],
+  "coverage": 0,
+  "interval_length": 0,
+  "order_by": [
+    "resolution"
+  ]
+}
